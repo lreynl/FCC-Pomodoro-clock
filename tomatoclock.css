@@ -1,0 +1,91 @@
+@media (max-width: 400px) {
+  #main {
+    width: 100% !important;
+    height: 100vw !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+  transform: translate(-50%, -50%);
+  }
+
+  #time, #break {
+    font-size: 35px !important;
+  }
+}
+
+@font-face {
+  font-family: 'Bazaronite';
+  src: url('https://dl.dropboxusercontent.com/s/s4oo59h3xgyctib/Bazaronite.ttf?dl=0');
+}
+
+body {
+  background-color: #cce7ea;
+}
+
+#main {
+  position: absolute;
+  text-align: center;
+  font-family: "Righteous";
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #eacfcc;
+  background-image: linear-gradient(90deg, transparent 50%, #e7eacc 50%), linear-gradient(90deg, #e7eacc 50%, transparent 50%);
+  background-repeat: no-repeat;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+#buttons {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#work {
+  background: lightgrey;
+}
+
+#BREAK {
+  background: lightgrey;
+}
+
+#timeDec, #breakDec {
+  text-align: left;
+}
+
+#timeInc, #breakInc {
+  text-align: right;
+}
+
+#timeInc, #breakInc, #timeDec, #breakDec {
+  /*font-size: 20px; */
+}
+
+#start, #stop, #reset {
+  font-weight: bold;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+}
+
+#outer {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#time, #break {
+  font-size: 45px;
+  font-family: 'Bazaronite';
+  font-weight: bold;
+}
